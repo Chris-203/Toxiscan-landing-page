@@ -1,0 +1,30 @@
+{
+  "name": "toxiscan",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000o\u0000x\u0000i\u0000s\u0000c\u0000a\u0000n\u0000-\u0000l\u0000a\u0000n\u0000d\u0000i\u0000n\u0000g\u0000-\u0000p\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "@eslint/js": "^9.8.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0"
+  }
+}
