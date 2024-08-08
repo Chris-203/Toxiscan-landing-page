@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -30,8 +30,12 @@
 			/* Snackbar visible state */
 			#snackbar.show {
 				visibility: visible;
-				-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-				animation: fadein 0.5s, fadeout 0.5s 2.5s;
+				-webkit-animation:
+					fadein 0.5s,
+					fadeout 0.5s 2.5s;
+				animation:
+					fadein 0.5s,
+					fadeout 0.5s 2.5s;
 			}
 			.icon {
 				font-size: 16px; /* Change size as needed */
@@ -88,7 +92,10 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="dist/css/style.css" />
-		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
 		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	</head>
 	<body class="is-boxed">
@@ -105,56 +112,32 @@
 										viewBox="0 0 32 32"
 										xmlns="http://www.w3.org/2000/svg"
 									>
-										<i class='bx bx-barcode-reader'></i>
+										<i class="bx bx-barcode-reader"></i>
 										<title>Toxiscan</title>
 										<defs>
-											<linearGradient
-												x1="0%"
-												y1="0%"
-												y2="100%"
-												id="logo-a"
-											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+											<linearGradient x1="0%" y1="0%" y2="100%" id="logo-a">
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
 													offset="100%"
 												/>
 											</linearGradient>
-											<linearGradient
-												x1="0%"
-												y1="0%"
-												y2="100%"
-												id="logo-b"
-											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+											<linearGradient x1="0%" y1="0%" y2="100%" id="logo-b">
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
 													offset="100%"
 												/>
 											</linearGradient>
-											<linearGradient
-												x1="0%"
-												y1="0%"
-												y2="100%"
-												id="logo-c"
-											>
+											<linearGradient x1="0%" y1="0%" y2="100%" id="logo-c">
 												<stop
 													stop-color="#78F9FF"
 													stop-opacity=".24"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="55.496%"
-												/>
+												<stop stop-color="#43F1FF" offset="55.496%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity=".24"
@@ -176,30 +159,26 @@
 						<div class="hero-inner">
 							<div class="hero-copy">
 								<h1 class="hero-title mt-0 is-revealing">
-									Toxiscan - Your Ultimate Guide to Safe and
-									Eco-Friendly Living
+									Toxiscan - Your Ultimate Guide to Safe and Eco-Friendly Living
 								</h1>
 								<p class="hero-paragraph is-revealing">
-									Welcome to Toxiscan, where your health and
-									the environment come first. Toxiscan
-									empowers you to make informed choices by
-									allowing you to search and scan food items,
-									personal care products, and household
-									cleaners for potentially harmful substances.
-									Join our waitlist today and be the first to
-									access a safer, cleaner future.
+									Welcome to Toxiscan, where your health and the environment
+									come first. Toxiscan empowers you to make informed choices by
+									allowing you to search and scan food items, personal care
+									products, and household cleaners for potentially harmful
+									substances. Join our waitlist today and be the first to access
+									a safer, cleaner future.
 								</p>
-								<div
-									class="hero-form field field-grouped is-revealing"
-								>
+								<div class="hero-form field field-grouped is-revealing parent">
 									<form id="notifyform">
 										<div class="control control-expanded">
 											<input
 												class="input"
+												size="50"
 												type="email"
 												id="emailInput"
 												name="email"
-												placeholder="Your best email&hellip;"
+												placeholder="Enter email"
 												required
 											/>
 										</div>
@@ -208,15 +187,13 @@
 												type="submit"
 												class="button button-primary button-block"
 											>
-												Notify Me
+												Join Waitlist
 											</button>
 										</div>
 									</form>
 								</div>
 							</div>
-							<div id="snackbar">
-								Email submitted successfully!
-							</div>
+							<div id="snackbar">Email submitted successfully!</div>
 							<div class="hero-illustration">
 								<div class="hero-bg">
 									<svg
@@ -232,14 +209,8 @@
 												y2="97.738%"
 												id="a"
 											>
-												<stop
-													stop-color="#151616"
-													offset="0%"
-												/>
-												<stop
-													stop-color="#222424"
-													offset="100%"
-												/>
+												<stop stop-color="#151616" offset="0%" />
+												<stop stop-color="#222424" offset="100%" />
 											</linearGradient>
 										</defs>
 										<path
@@ -265,10 +236,7 @@
 												y2="100%"
 												id="square-1-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -287,10 +255,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="53.489%"
-												/>
+												<stop stop-color="#43F1FF" offset="53.489%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -334,10 +299,7 @@
 												y2="100%"
 												id="square-2-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -364,10 +326,7 @@
 											</linearGradient>
 										</defs>
 										<g fill="none" fill-rule="evenodd">
-											<path
-												fill="url(#square-2-a)"
-												d="M0 0h88v88H0z"
-											/>
+											<path fill="url(#square-2-a)" d="M0 0h88v88H0z" />
 											<path
 												d="M19.717 36.579C13.824 33.969 7.004 32.555 0 31.535V0h88v88H76.869C59.773 67.766 40.697 45.872 19.717 36.579z"
 												fill="url(#square-2-b)"
@@ -391,10 +350,7 @@
 												y2="100%"
 												id="square-3-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".16"
@@ -420,15 +376,8 @@
 												/>
 											</linearGradient>
 										</defs>
-										<g
-											fill="none"
-											fill-rule="evenodd"
-											opacity=".64"
-										>
-											<path
-												fill="url(#square-3-a)"
-												d="M0 0h64v64H0z"
-											/>
+										<g fill="none" fill-rule="evenodd" opacity=".64">
+											<path fill="url(#square-3-a)" d="M0 0h64v64H0z" />
 											<path
 												d="M14.03 0C27.176 13.07 42 27.791 42 38.165c0 17.46-14.154-11.127-31.614-11.127-2.67 0-6.289.931-10.386 2.406V0h14.03z"
 												fill="url(#square-3-b)"
@@ -452,10 +401,7 @@
 												y2="100%"
 												id="square-4-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -474,10 +420,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="53.489%"
-												/>
+												<stop stop-color="#43F1FF" offset="53.489%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -510,10 +453,7 @@
 												r="136.8%"
 												id="square-4-d"
 											>
-												<stop
-													stop-color="#43F1FF"
-													offset="0%"
-												/>
+												<stop stop-color="#43F1FF" offset="0%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -528,10 +468,7 @@
 												r="140.264%"
 												id="square-4-e"
 											>
-												<stop
-													stop-color="#43F1FF"
-													offset="0%"
-												/>
+												<stop stop-color="#43F1FF" offset="0%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -546,10 +483,7 @@
 												r="137.638%"
 												id="square-4-f"
 											>
-												<stop
-													stop-color="#43F1FF"
-													offset="0%"
-												/>
+												<stop stop-color="#43F1FF" offset="0%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -606,10 +540,7 @@
 												y2="100%"
 												id="square-5-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -646,10 +577,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="53.489%"
-												/>
+												<stop stop-color="#43F1FF" offset="53.489%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -695,10 +623,7 @@
 												y2="100%"
 												id="square-6-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -730,10 +655,7 @@
 												y2="0%"
 												id="square-6-c"
 											>
-												<stop
-													stop-color="#43F1FF"
-													offset="0%"
-												/>
+												<stop stop-color="#43F1FF" offset="0%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity=".24"
@@ -752,10 +674,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="53.489%"
-												/>
+												<stop stop-color="#43F1FF" offset="53.489%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -764,10 +683,7 @@
 											</linearGradient>
 										</defs>
 										<g fill="none" fill-rule="evenodd">
-											<path
-												fill="url(#square-6-a)"
-												d="M0 0h128v128H0z"
-											/>
+											<path fill="url(#square-6-a)" d="M0 0h128v128H0z" />
 											<path
 												d="M27.652 128H0V32.762c13.602-4.224 26.559-6.606 36.988-6.606 42.25 0-38.976 13.508-19.488 50.235C25.002 90.529 28.544 109.73 27.652 128z"
 												fill="url(#square-6-b)"
@@ -801,10 +717,7 @@
 												y2="100%"
 												id="square-7-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -820,10 +733,7 @@
 												gradientTransform="scale(-1 -.64163) rotate(55.582 1.643 -.08)"
 												id="square-7-b"
 											>
-												<stop
-													stop-color="#43F1FF"
-													offset="0%"
-												/>
+												<stop stop-color="#43F1FF" offset="0%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -842,10 +752,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#43F1FF"
-													offset="32.912%"
-												/>
+												<stop stop-color="#43F1FF" offset="32.912%" />
 												<stop
 													stop-color="#43F1FF"
 													stop-opacity="0"
@@ -853,15 +760,8 @@
 												/>
 											</linearGradient>
 										</defs>
-										<g
-											fill="none"
-											fill-rule="evenodd"
-											opacity=".601"
-										>
-											<path
-												fill="url(#square-7-a)"
-												d="M0 0h64v64H0z"
-											/>
+										<g fill="none" fill-rule="evenodd" opacity=".601">
+											<path fill="url(#square-7-a)" d="M0 0h64v64H0z" />
 											<path
 												d="M0 64V.1C22.901 1.644 41 20.709 41 44c0 7.202-1.73 14-4.798 20H0z"
 												fill="url(#square-7-b)"
@@ -890,10 +790,7 @@
 												y2="100%"
 												id="square-8-a"
 											>
-												<stop
-													stop-color="#4353FF"
-													offset="0%"
-												/>
+												<stop stop-color="#4353FF" offset="0%" />
 												<stop
 													stop-color="#4353FF"
 													stop-opacity=".32"
@@ -1106,10 +1003,7 @@
 													stop-opacity="0"
 													offset="0%"
 												/>
-												<stop
-													stop-color="#5D6AFF"
-													offset="53.489%"
-												/>
+												<stop stop-color="#5D6AFF" offset="53.489%" />
 												<stop
 													stop-color="#5D6AFF"
 													stop-opacity="0"
@@ -1143,50 +1037,14 @@
 													height="32"
 													xmlns="http://www.w3.org/2000/svg"
 												>
-													<g
-														fill-rule="nonzero"
-														fill="none"
-													>
-														<path
-															d="M7 8H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1zM19 8h-6a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M19 20h-6a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M31 8h-6a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M7 20H1a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M7 32H1a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M29.5 18h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M17.5 30h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5zM29.5 30h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5z"
-															fill="#4353FF"
-														/>
-													</g>
+													<i class='bx bx-data bx-lg bx-tada-hover' style='color:cyan'></i>
 												</svg>
 											</div>
-											<h4 class="feature-title m-0">
-												Comprehensive Database
-											</h4>
+											<h4 class="feature-title m-0">Comprehensive Database</h4>
 										</div>
 										<p class="text-sm mb-0">
-											Leveraging the EWG's extensive and
-											trusted data, we ensure you have
-											reliable information at your
-											fingertips.
+											Leveraging the EWG's extensive and trusted data, we ensure
+											you have reliable information at your fingertips.
 										</p>
 									</div>
 								</div>
@@ -1199,33 +1057,14 @@
 													height="32"
 													xmlns="http://www.w3.org/2000/svg"
 												>
-													<g
-														fill-rule="nonzero"
-														fill="none"
-													>
-														<path
-															d="M4 12H0V5a5.006 5.006 0 0 1 5-5h7v4H5a1 1 0 0 0-1 1v7z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M32 12h-4V5a1 1 0 0 0-1-1h-7V0h7a5.006 5.006 0 0 1 5 5v7zM12 32H5a5.006 5.006 0 0 1-5-5v-7h4v7a1 1 0 0 0 1 1h7v4z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M27 32h-7v-4h7a1 1 0 0 0 1-1v-7h4v7a5.006 5.006 0 0 1-5 5z"
-															fill="#43F1FF"
-														/>
-													</g>
+													<i class='bx bx-health bx-lg bx-tada-hover' style='color:cyan'></i>
 												</svg>
 											</div>
-											<h4 class="feature-title m-0">
-												Health First
-											</h4>
+											<h4 class="feature-title m-0">Health First</h4>
 										</div>
 										<p class="text-sm mb-0">
-											Discover if the products you use
-											contain any toxic substances that
-											could affect your well-being.
+											Discover if the products you use contain any toxic
+											substances that could affect your well-being.
 										</p>
 									</div>
 								</div>
@@ -1238,40 +1077,14 @@
 													height="32"
 													xmlns="http://www.w3.org/2000/svg"
 												>
-													<g
-														fill="none"
-														fill-rule="nonzero"
-													>
-														<path
-															d="M16 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M27 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M27 12c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z"
-															fill="#4353FF"
-														/>
-														<path
-															d="M5 23c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z"
-															fill="#43F1FF"
-														/>
-														<path
-															d="M27 23c-1.859 0-3.41 1.28-3.858 3h-3.284A3.994 3.994 0 0 0 17 23.142v-3.284c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4-1.859 0-3.41 1.28-3.858 3H8.858A3.994 3.994 0 0 0 6 12.142V8.858c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4S1 2.794 1 5c0 1.858 1.28 3.41 3 3.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284A3.994 3.994 0 0 0 15 19.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284c.447 1.72 2 3 3.858 3 2.206 0 4-1.794 4-4s-1.794-4-4-4z"
-															fill="#4353FF"
-														/>
-													</g>
+													<i class='bx bx-leaf bx-lg bx-tada-hover' style='color:cyan'></i>
 												</svg>
 											</div>
-											<h4 class="feature-title m-0">
-												Eco-Friendly
-											</h4>
+											<h4 class="feature-title m-0">Eco-Friendly</h4>
 										</div>
 										<p class="text-sm mb-0">
-											Learn about the environmental impact
-											of the products you buy and use.
+											Learn about the environmental impact of the products you
+											buy and use.
 										</p>
 									</div>
 								</div>
@@ -1283,11 +1096,7 @@
 
 			<footer class="site-footer">
 				<div class="footer-bg">
-					<svg
-						width="385"
-						height="305"
-						xmlns="http://www.w3.org/2000/svg"
-					>
+					<svg width="385" height="305" xmlns="http://www.w3.org/2000/svg">
 						<defs>
 							<linearGradient
 								x1="50%"
@@ -1311,11 +1120,7 @@
 					class="footer-dots is-moving-object is-translating"
 					data-translating-factor="160"
 				>
-					<svg
-						width="69"
-						height="91"
-						xmlns="http://www.w3.org/2000/svg"
-					>
+					<svg width="69" height="91" xmlns="http://www.w3.org/2000/svg">
 						<g fill="#43F1FF" fill-rule="evenodd">
 							<path
 								d="M37.105 41.007l-2.9 1.334-.786 2.823.926 2.689 2.76 1.154 2.6-1.31 1.714-2.533-1.296-2.94z"
@@ -1354,48 +1159,35 @@
 				<div class="container">
 					<div class="site-footer-inner has-top-divider">
 						<div class="footer-copyright">
-							&copy; 2018 Ellie, all rights reserved
+							&copy; 2024 Toxiscan, all rights reserved
 						</div>
 						<ul class="footer-social-links list-reset">
 							<li>
-								<a href="https://www.youtube.com/channel/UC4_EsCVqW5sfZEmrIrMXieA/about">
-									<span class="screen-reader-text"
-										>Youtube</span
-									>
+								<a
+									href="https://www.youtube.com/@Toxiscan" target="_blank"
+								>
+									<span class="screen-reader-text">Youtube</span>
 									<i class="fab fa-youtube icon"></i>
 								</a>
 							</li>
 							<li>
-								<a href="https://www.tiktok.com/@toxiscan4">
-									<span class="screen-reader-text"
-										>TikTok</span
-									>
+								<a href="https://www.tiktok.com/@toxiscan4" target="_blank">
+									<span class="screen-reader-text">TikTok</span>
 									<i class="fab fa-tiktok icon"></i>
 								</a>
 							</li>
 							<li>
-								<a href="https://www.instagram.com/toxiscan4">
-									<span class="screen-reader-text"
-										>Instagram</span
-									>
+								<a href="https://www.instagram.com/toxiscan4" target="_blank">
+									<span class="screen-reader-text">Instagram</span>
 									<i class="fab fa-instagram icon"></i>
 								</a>
 							</li>
 							<li>
-								<a href="mailto:toxiscan4@gmail.com">
-									<span class="screen-reader-text"
-										>Google</span
-									>
-									<svg
-										width="16"
-										height="16"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
-											fill="#FFFFFF"
-										/>
-									</svg>
+								<a href="mailto:toxiscan4@gmail.com" >
+									<span class="screen-reader-text">Mail</span>
+									
+										<i class="fa-regular fa-envelope fa-lg" style="color: #ffffff;"></i>
+									
 								</a>
 							</li>
 						</ul>
