@@ -69,7 +69,7 @@ style-lin-trc: Configuration for style linting.
 source-le-dist: Distribution files or output of source files.
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the GPL-3.0 License.
 
 # Changelog
 See the changelog file for a list of changes and updates to the project.
